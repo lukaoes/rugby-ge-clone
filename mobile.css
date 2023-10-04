@@ -1,0 +1,87 @@
+@media (max-width: 765px) {
+    .flex {
+        display: block;
+    }
+
+    .left-menu {
+        display: none;
+    }
+
+    div.nav.white-bg {
+        display: none;
+    }
+    
+
+    header {
+        width: 765px;
+    }
+
+    .socials {
+        width: 765px;
+        padding-left: 120px;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 25px 25px 25px 120px;
+        background-color: #fff;
+        box-shadow: -1px 4px 15px -2px rgba(0,0,0,0.75);
+    }
+    
+    .intro div {
+        max-width: 700px;
+        padding-top: 150px;
+    }
+    .img-container::before {
+        content: "";
+        width: 103%;
+    }
+
+    .img-container:hover::before {
+        content: "";
+        width: 103%;
+    }
+
+    .left_news {
+        margin-bottom: 40px;
+        padding: 50px;
+    }
+
+    .left_news img {
+        width: 665px;
+    }
+
+    .right_news {
+        margin-top: 40px;
+        padding: 50px;
+
+        h3 {
+            margin-bottom: 15px;
+        }
+    }
+
+    .right_news img {
+        width: 665px;
+    }
+
+    .fb-photo {
+        width: 740px;
+        overflow: hidden;
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    footer {
+        width: 740px;
+        overflow: hidden;
+    }
+
+    .contact{
+        width: 740px;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+}

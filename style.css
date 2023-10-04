@@ -1,0 +1,300 @@
+body {
+    font-family: "ALK Sanet";
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #000;
+}
+
+ul li:first-child a {
+    padding-left: 0;
+}
+
+ul li:last-child a {
+    padding-right: 0;
+    border-right: 0;
+}
+
+ul li {
+    position: relative;
+}
+
+.dropdown {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 120px;
+    transition: all 0.3s ease-in-out;
+}
+
+ul .dropdown a {
+    border: 0;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+
+.dropdown div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+ul li:hover .dropdown {
+    max-height: 400px;
+}
+
+main {
+    margin-top: 113px;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.intro div {
+    text-align: center;
+    max-width: 500px;
+}
+
+.intro h6 {
+    font-size: 25px;
+}
+
+.intro h1 {
+    font-size: 90px;
+    line-height: 90px;
+}
+
+.intro button {
+    border: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+
+.right_news img {
+    width: 285px;
+}
+
+.left_news img {
+    width: 600px;
+}
+
+.news img {
+    border-bottom-right-radius: 60px;
+}
+
+.left_news {
+    box-shadow: -1px 5px 23px -8px rgba(0,0,0,0.96);
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container::before {
+    content: "";
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.1);
+    border-bottom-right-radius: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-container:hover::before {
+    content: "";
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.7);
+    border-bottom-right-radius: 60px;
+}
+
+.ig_btn {
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ig_btn:hover {
+    color: #F8F812;
+    background-color: #1B252F;
+    font-size: 18px;
+    padding: 20px 55px;
+}
+
+.video img {
+    width: 100%;
+}
+
+.video {
+    position: relative;
+}
+
+.video-img::before {
+    content: "";
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.video-top {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+
+.video-top img {
+    border-radius: 50%;
+}
+
+.video-info {
+    position: absolute;
+    flex-direction: column;
+    top: 20px;
+    left: 70px;
+}
+
+.video-info a {
+    color: #fff;
+}
+.video-info a:hover {
+    text-decoration: underline;
+}
+
+.share {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.play {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.fb-share {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.fb-photo {
+    width: 1112px;
+    height: 477px;
+    background-image: url(./images/fb-photo.jpg);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.fb-connect {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 40px;
+    width: 300px;
+}
+
+.fb-connect h1 {
+    color: #9AA8BA;
+}
+
+.fb-connect p {
+    font-size: 18px;
+}
+
+.fb-connect button {
+    width: 140px;
+    height: 49px;
+    border: 1px solid #9AA8BA;
+    background-color: #9AA8BA;
+    color: #fff;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.fb-connect button:hover {
+    color: #9AA8BA;
+    background-color: rgba(2, 1, 1, 0);
+    border-color: #9AA8BA;
+}
+
+footer {
+    justify-content: space-between;
+}
+
+footer .footer-left {
+    width: 547px;
+    height: 260px;
+    color: #000;
+}
+
+footer .footer-right {
+    background-color: #E5E9EF;
+    width: 1455px;
+    height: 260px;
+}
+
+.contact p {
+    font-size: 17px;
+    color: #555555;
+    line-height: 1.8;
+    border-bottom: 1px solid #9AA8BA;
+    padding: 40px;
+    padding-left: 80px;
+}
+
+.contact span {
+    color: #9aa8ba;
+}
+
+.copyright {
+    padding: 40px;
+    padding-left: 80px;
+}
+
+.mobile-menu {
+    display: none;
+}

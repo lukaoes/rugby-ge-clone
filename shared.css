@@ -1,0 +1,63 @@
+.flex {
+    display: flex;
+}
+
+.space-flex {
+    justify-content: space-between;
+}
+
+.center-flex {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.brand-bg {
+    background-color: #832424;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.brand-color {
+    color: #16163f;
+}
+
+.gap {
+    gap: 15px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pd-15 {
+    padding: 15px;
+}
